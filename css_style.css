@@ -1,0 +1,453 @@
+html {
+    background: url("media_foto_achtergrond.jpg")
+    no-repeat center center fixed;
+    background-size: cover  ;
+    height: 100%;
+
+}
+button {
+ 
+}
+body {
+	margin: 60px 0px 0px 0px;
+}
+
+
+.taskbar {
+	background: linear-gradient(to right,#2EC42E, #5FE8A2) ;
+	border:none;
+	padding: 0px 0px 0px -15px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	width:100%;
+	overflow:hidden;
+	z-index:100;
+}
+
+
+.taskbarbutton {
+	border: none;
+	/*background-color: rgb(150, 200,190);*/
+	background-color:transparent;
+	padding: 10px;
+	margin:0px;
+}
+
+.taskbarbutton:hover {
+	background-color: #FFD641; 
+	cursor:pointer;
+}
+
+.taskbarbuttonwords {
+	text-transform:uppercase;
+	font-size: 1.4em;
+	color:black;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+
+.box {
+  background-color: white;
+  width: 20%;
+  height: 90%;
+  margin: 5%;
+}
+
+#rightbox {
+  opacity: 0;
+}
+
+#img_1 {
+background-color: green;
+}
+
+#img_2 {
+background-color: red;
+}
+
+#img_3 {
+ background-color: yellow; 
+}
+
+#img_4 {
+  background-color: black;
+}
+
+#img_5 {
+  background-color: orange;
+}
+
+#img_6 {
+  background-color: pink;
+}
+#noopacity {
+  opacity: 1;
+}
+
+.startpage {
+  display: flex;
+  justify-content: center;
+}
+/*This is to get the pictures on a circle (used the method in this link https://hugogiraudel.com/2013/04/02/items-on-circle/)*/
+
+.circle-container {
+  position: relative;
+  width: 34em;
+  height: 34em;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  box-sizing: content-box;
+ /* margin: auto;*/
+  margin-bottom: 3em;
+  background: linear-gradient(to bottom,#5CE0E0, #5555D3) ;
+  
+  box-shadow: 0px 5px 10px 4px;
+}
+.circle-container > * {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4em;
+  height: 4.2em;
+  margin: -1.9em;
+}
+
+/*The first circle, is the right one in the middle*/
+.circle-container > :nth-of-type(1) {
+  transform: rotate(0deg) translate(15em) rotate(0deg);
+}
+.circle-container > :nth-of-type(2) {
+  transform: rotate(14.4deg) translate(15em) rotate(-14.4deg);
+}
+.circle-container > :nth-of-type(3) {
+  transform: rotate(28.8deg) translate(15em) rotate(-28.8deg);
+}
+.circle-container > :nth-of-type(4) {
+  transform: rotate(43.2deg) translate(15em) rotate(-43.2deg);
+}
+.circle-container > :nth-of-type(5) {
+  transform: rotate(57.6deg) translate(15em) rotate(-57.6deg);
+}
+.circle-container > :nth-of-type(6) {
+  transform: rotate(72deg) translate(15em) rotate(-72deg);
+}
+.circle-container > :nth-of-type(7) {
+  transform: rotate(86.4deg) translate(15em) rotate(-86.4deg);
+}
+.circle-container > :nth-of-type(8) {
+  transform: rotate(100.8deg) translate(15em) rotate(-100.8deg);
+}
+.circle-container > :nth-of-type(9) {
+  transform: rotate(115.2deg) translate(15em) rotate(-115.2deg);
+}
+.circle-container > :nth-of-type(10) {
+  transform: rotate(129.6deg) translate(15em) rotate(-129.6deg);
+}
+.circle-container > :nth-of-type(11) {
+  transform: rotate(144deg) translate(15em) rotate(-144deg);
+}
+.circle-container > :nth-of-type(12) {
+  transform: rotate(158.4deg) translate(15em) rotate(-158.4deg);
+}
+.circle-container > :nth-of-type(13) {
+  transform: rotate(172.8deg) translate(15em) rotate(-172.8deg);
+}
+.circle-container > :nth-of-type(14) {
+  transform: rotate(187.2deg) translate(15em) rotate(-187.2deg);
+}
+.circle-container > :nth-of-type(15) {
+  transform: rotate(201.6deg) translate(15em) rotate(-201.6deg);
+}
+.circle-container > :nth-of-type(16) {
+  transform: rotate(216deg) translate(15em) rotate(-216deg);
+}
+.circle-container > :nth-of-type(17) {
+  transform: rotate(230.4deg) translate(15em) rotate(-230.4deg);
+}
+.circle-container > :nth-of-type(18) {
+  transform: rotate(244.8deg) translate(15em) rotate(-244.8deg);
+}
+.circle-container > :nth-of-type(19) {
+  transform: rotate(259.2deg) translate(15em) rotate(-259.2deg);
+}
+.circle-container > :nth-of-type(20) {
+  transform: rotate(273.6deg) translate(15em) rotate(-273.6deg);
+}
+.circle-container > :nth-of-type(21) {
+  transform: rotate(288deg) translate(15em) rotate(-288deg);
+}
+.circle-container > :nth-of-type(22) {
+  transform: rotate(302.4deg) translate(15em) rotate(-302.4deg);
+}
+.circle-container > :nth-of-type(23) {
+  transform: rotate(316.8deg) translate(15em) rotate(-316.8deg);
+}
+.circle-container > :nth-of-type(24) {
+  transform: rotate(331.2deg) translate(15em) rotate(-331.2deg);
+}
+.circle-container > :nth-of-type(25) {
+  transform: rotate(345.6deg) translate(15em) rotate(-345.6deg);
+}
+
+
+/* Here are the elements at the center of the circle*/
+
+/*This is the one in the center*/
+.circle-container > :nth-of-type(26) {
+  transform: rotate(0deg) translate(0em) rotate(0deg);
+}
+
+/*This is the one at the right*/
+.circle-container > :nth-of-type(27) {
+  transform: rotate(0deg) translate(5em) rotate(0deg);
+}
+/*This is the one at the left*/
+.circle-container > :nth-of-type(28) {
+  transform: rotate(0deg) translate(-5em) rotate(0deg);
+}
+
+
+/*This is the button to add your cookie*/
+.circle-container > :nth-of-type(29) {
+  transform: rotate(0deg) translateY(7em) translateX(-4.1em) rotate(0deg);
+}
+
+/*This is the information above your 3 choices*/
+.circle-container > :nth-of-type(30) {
+  transform: rotate(0deg) translateY(-2em) translateX(-1.3em) rotate(0deg);
+  width: 7em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  height: 2em
+}
+
+
+/*This is the style for the little circles*/
+.circle-container img {
+  display: block;
+  width: 90%;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.circle-container img:hover {
+  
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 30px 10px gold;
+}
+
+.fotoInCircle {
+  border-radius: 50%;
+}
+/*Until here it's to get the pictures on a circle*/
+
+
+
+.button {
+background-color: #FD1C27;
+border: solid 4px #FC2C11;
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.4em;
+font-weight: bold;
+transition: all 0.3s;
+}
+
+.button:hover {
+	cursor:pointer;
+	transform: scale(1.05);
+  color: yellow;
+  border-color:yellow;
+  user-select: none;
+}
+
+.specialbuttons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin: 1em;
+}
+/*
+#specialbuttonleft{
+  margin-left: 16em;
+}
+
+#specialbuttoncenter {
+  margin-left: 0.8em;
+  margin-bottom: 0.8em;
+
+}
+
+#specialbuttonright {
+  margin-right: 20em;
+}*/
+
+#toevoegtoets {
+	width:9em;
+	height:2em;
+}
+
+
+
+.labels {
+	background-color: white;
+	border: solid green 2px;
+}
+
+.labels2 {
+  background-color: white;
+  border: solid #F69068 2px;
+}
+
+.labels3 {
+  background-color: white;
+  border: solid #F5B739 2px;
+}
+
+.grouplabel1 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.grouplabel2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.labelheader {
+	display: flex;
+	justify-content: center;
+	justify-content: flex-end;
+}
+
+.labeltitel {
+	margin: 1px 37%;
+	color: green;
+	font-family: 'Hi Melody', cursive;
+	font-family: 'Merienda', cursive;
+	font-weight: : bold;
+	font-size: 1.4em
+}
+
+.labeltitel2 {
+  margin: 1px 37%;
+  color: #F69068;
+  font-family: 'Hi Melody', cursive;
+  font-family: 'Merienda', cursive;
+  font-weight: : bold;
+  font-size: 1.4em
+}
+
+.labeltitel3 {
+  margin: 1px 37%;
+  color: #F5B739;
+  font-family: 'Hi Melody', cursive;
+  font-family: 'Merienda', cursive;
+  font-weight: : bold;
+  font-size: 1.4em
+}
+
+
+.labelcontent {
+   background: linear-gradient(green, #F5B739);
+  padding: 2em;
+  width: 19em;
+  height: 10em;
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#labelcontentnuts {
+  background: linear-gradient(#F5B739, #F69068);
+}
+
+#labelcontentseeds {
+  background: linear-gradient(#F5B739, #F69068); 
+}
+
+#labelcontentambachtelijk {
+  background-color: #F5B739;
+  padding-right: 3em;
+  background: linear-gradient(#F69068, #F5B739);
+}
+
+
+.labelimages {
+  position: absolute;
+}
+
+#labelimages1{
+  margin-left: -4.35em;
+}
+
+#labelimages2 {
+  margin-top: -1em;
+  margin-left:-5.3em;
+}
+
+#labelimages3 {
+  margin-left:-4.9em;
+  border-radius: 50%;
+}
+
+#labelimages4 {
+  position: relative;
+}
+
+#labelimages5 {
+  position: relative;
+}
+
+#labelimages6 {
+  margin-left:-4.35em;
+}
+
+#nutsinline {
+  margin: 1em auto;
+}
+
+#seedsinline {
+  margin: 1em auto;
+}
+
+#label1 {
+  margin-bottom: 5%;
+}
+#label2 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#label3 {
+  margin-right: 20%;
+}
+#label4 {
+  margin-top: 10%;
+}
+#label5 {
+  margin-top: -2%;
+  margin-bottom: 12%;
+}
+
+#label6 {
+  margin-left: 30%;
+}
+
+#testbox {
+  background-color: gold;
+}
