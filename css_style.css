@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-/*html {
-    background: /*url("media_foto_achtergrond.jpg")*/
-  /*  no-repeat center center fixed;
-=======
 html {
-    background: url("media_foto_achtergrond_oud.jpg")
+    background: url("media_foto_achtergrond.jpg")
     no-repeat center center fixed;
+<<<<<<< HEAD
 >>>>>>> 8eaf4ff9ce23c33dafd54d099f628dadaf386cbc
     background-size: cover  ;
 */   /* height: 90%;*/
@@ -25,10 +21,11 @@ body, html {
 
     background-position: center;
     background-repeat: repeat;
+=======
+>>>>>>> c6c29d258e864a751eeb34161895c23fc6cca854
     background-size: cover;
+    height: 100%;
 }
-
-
 button {
  
 }
