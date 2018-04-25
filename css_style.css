@@ -1,30 +1,7 @@
 html {
-    background: url("media_foto_achtergrond.jpg")
-    no-repeat center center fixed;
-<<<<<<< HEAD
->>>>>>> 8eaf4ff9ce23c33dafd54d099f628dadaf386cbc
-    background-size: cover  ;
-*/   /* height: 90%;*/
-
-/*}*/
-
-body, html {
-    height: 100%;
-}
-
-.bg { 
-  
-    background-image: url("media_foto_achtergrond.jpg");
-
-   
-    height: 100%; 
-
-    background-position: center;
-    background-repeat: repeat;
-=======
->>>>>>> c6c29d258e864a751eeb34161895c23fc6cca854
-    background-size: cover;
-    height: 100%;
+    background: url("media_foto_achtergrond.jpg") repeat   fixed;
+/*    normaal: no-repeat center center fixed en ook background-size: cover;
+*/
 }
 button {
  
