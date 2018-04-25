@@ -1,34 +1,9 @@
-<<<<<<< HEAD
-/*html {
-    background: /*url("media_foto_achtergrond.jpg")*/
-  /*  no-repeat center center fixed;
-=======
 html {
-    background: url("media_foto_achtergrond_oud.jpg")
+    background: url("media_foto_achtergrond.jpg")
     no-repeat center center fixed;
->>>>>>> 8eaf4ff9ce23c33dafd54d099f628dadaf386cbc
-    background-size: cover  ;
-*/   /* height: 90%;*/
-
-/*}*/
-
-body, html {
+    background-size: cover;
     height: 100%;
 }
-
-.bg { 
-  
-    background-image: url("https://faber.kuleuven.be/nl/onderwijs/Uploads/check-mark.png/image_view_fullscreen");
-
-   
-    height: 100%; 
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 button {
  
 }
