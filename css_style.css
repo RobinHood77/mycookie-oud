@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 /*html {
     background: /*url("media_foto_achtergrond.jpg")*/
   /*  no-repeat center center fixed;
+=======
+html {
+    background: url("media_foto_achtergrond_oud.jpg")
+    no-repeat center center fixed;
+>>>>>>> 8eaf4ff9ce23c33dafd54d099f628dadaf386cbc
     background-size: cover  ;
 */   /* height: 90%;*/
 
