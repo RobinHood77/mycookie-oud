@@ -1,1 +1,1 @@
-# mycookie-testing
+De standaard mycookie pagina!
